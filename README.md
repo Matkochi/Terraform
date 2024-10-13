@@ -1,8 +1,8 @@
 # Provisionamento de recursos AWS usando Terraform
 ##### Arquivo main.tf
--Definição do provider: AWS 
+- Definição do provider: AWS 
 
--Região: us-east-1(Virgínia)
+- Região: us-east-1(Virgínia)
 
 ``` 
 terraform {
@@ -21,8 +21,13 @@ provider "aws" {
 }
 ``` 
 #### Arquivo vpc.tf 
--Criação da VPC
-
+- Criação da VPC
+```
+resource "aws_vpc" "youtube_vpc" {
+  cidr_block = "10.0.0.0/16"
+  tags = merge({Name = "youtube-vpc"}, variables.tags)
+}
+```
 
 
 
