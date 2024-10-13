@@ -1,6 +1,5 @@
 # Provisionamento de recursos AWS usando Terraform
-<div align="center">
-  <img src=".\Users\mateu\Downloads\terraform.png" alt="Logo" width="100%" height="100%">
+
 ##### Arquivo main.tf
 - Definição do provider: AWS 
 
