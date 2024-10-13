@@ -1,5 +1,6 @@
 # Provisionamento de recursos AWS usando Terraform
 ![terraform](https://github.com/user-attachments/assets/34eede13-7b64-42cf-886b-736886e0c2ce)
+![aws](https://github.com/user-attachments/assets/e7c9f676-d4aa-4d02-b07d-896ebf4fe22a)
 
 
 ##### Arquivo main.tf
