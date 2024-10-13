@@ -1,4 +1,6 @@
 # Provisionamento de recursos AWS usando Terraform
+![terraform](https://github.com/user-attachments/assets/34eede13-7b64-42cf-886b-736886e0c2ce)
+
 
 ##### Arquivo main.tf
 - Definição do provider: AWS 
